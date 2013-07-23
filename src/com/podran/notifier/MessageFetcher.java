@@ -15,7 +15,7 @@ public class MessageFetcher {
 	public final static int ALERT=0;
 	public final static int MESSAGE=1;
 	public final static int UPDATE =2;
-	private String url="http://localhost:8000/podranmessage/default/getmessage/";
+	private String url="http://podranservices.appspot.com/podranmessage/default/getmessage/";
 	/*
 	 * Helper Function that Fetches JSON data from the given URL
 	 */
